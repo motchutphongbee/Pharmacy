@@ -1,0 +1,276 @@
+body {
+    font-family: "Lato", sans-serif !important;
+}
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #003762;
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+    
+    .quantity{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 150px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 65%;
+    }
+
+    .register-form{
+        margin-top: 30%;
+    }
+    .quantity{
+        margin-top: 20%;
+    }
+}
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-blue{
+    background-color: #003762 !important;
+    color: #fff;
+}
+
+
+.discounted h5{
+    color: red;
+
+}
+.discounted h4{
+    color: red;
+
+}
+.discounted p{
+    color: #111111;
+    text-decoration: line-through;
+}    
+.non-discount h5{
+    color: #111111;
+}
+
+.origin p{
+    color: #cccccc;
+}
+
+.cart-table {
+	margin-bottom: 40px;
+}
+
+.cart-table table {
+	width: 100%;
+	min-width: 480px;
+	border: 1px solid #ebebeb;
+}
+
+.cart-table table tr th {
+	font-size: 16px;
+	color: #252525;
+	font-weight: 700;
+	border-bottom: 1px solid #ebebeb;
+	text-align: center;
+	padding: 18px 0 19px;
+	text-transform: uppercase;
+}
+
+.cart-table table tr th.p-name {
+	text-align: left;
+}
+
+.cart-table table tr td {
+	text-align: center;
+	padding-bottom: 34px;
+}
+.cart-table table tr td.id{
+    text-align: center;
+    width: 3.5%;
+}
+.cart-table table tr td.first-row {
+	padding-top: 30px;
+}
+
+.cart-table table tr td.cart-pic {
+	width: 21%;
+}
+
+.cart-table table tr td.cart-title {
+	text-align: left;
+}
+
+.cart-table table tr td.cart-title h5 {
+	color: #252525;
+}
+
+.cart-table table tr td.p-price {
+	width: 16%;
+}
+
+.cart-table table tr td.p-price,
+.cart-table table tr td.total-price {
+	color: #e7ab3c;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.cart-table table tr td.qua-col {
+	width: 16%;
+}
+
+.cart-table table tr td.qua-col .quantity {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.cart-table table tr td.qua-col .pro-qty {
+	width: 123px;
+	height: 46px;
+	border: 2px solid #ebebeb;
+	padding: 0 15px;
+	float: left;
+}
+
+.cart-table table tr td.qua-col .pro-qty .qtybtn {
+	font-size: 24px;
+	color: #b2b2b2;
+	float: left;
+	line-height: 38px;
+	cursor: pointer;
+	width: 18px;
+}
+
+.cart-table table tr td.qua-col .pro-qty .qtybtn.dec {
+	font-size: 30px;
+}
+
+.cart-table table tr td.qua-col .pro-qty input {
+	text-align: center;
+	width: 52px;
+	font-size: 14px;
+	font-weight: 700;
+	border: none;
+	color: #4c4c4c;
+	line-height: 40px;
+	float: left;
+}
+
+.cart-table table tr td.total-price {
+	width: 12%;
+}
+
+.cart-table table tr td.close-td {
+	font-size: 16px;
+	color: #252525;
+	width: 8%;
+}
+
+.cart-table table tr td.close-td i {
+	cursor: pointer;
+}
+
+.cart-buttons {
+	margin-bottom: 34px;
+}
+.proceed-checkout ul {
+	border: 2px solid #ebebeb;
+	background: #f3f3f3;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 16px;
+	padding-bottom: 20px;
+}
+
+.proceed-checkout ul li {
+	list-style: none;
+	font-size: 16px;
+	font-weight: 700;
+	color: #252525;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+
+.proceed-checkout ul li.subtotal {
+	font-weight: 400;
+	text-transform: capitalize;
+	border-bottom: 1px solid #ffffff;
+        padding-top: 10px;
+	padding-bottom: 14px;
+}
+
+.proceed-checkout ul li.subtotal span {
+	font-weight: 700;
+}
+
+.proceed-checkout ul li.cart-total {
+	padding-top: 10px;
+}
+
+.proceed-checkout ul li.cart-total span {
+	color: #e7ab3c;
+}
+
+.proceed-checkout ul li span {
+	float: right;
+}
+
+.proceed-checkout .proceed-btn {
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	background: #003762;
+	text-transform: uppercase;
+	padding: 15px 25px 14px 25px;
+	display: block;
+	text-align: center;
+}
